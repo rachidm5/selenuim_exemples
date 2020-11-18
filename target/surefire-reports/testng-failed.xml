@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="home_Test.Static_Drop_Down_Test">
+        <methods>
+          <include name="getDropDown_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- home_Test.Static_Drop_Down_Test -->
+      <class name="home_Test.AutoSuggestion_DropDpwnTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="get_auto_drop_down_test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- home_Test.AutoSuggestion_DropDpwnTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
