@@ -13,7 +13,7 @@ public class Dragable extends Base {
     static final String drag_CSS = "//div[@id='draggable']";
     static final String frame_class = "iframe";
 
-    public void get_Dragable() {
+    public void get_Dragable() throws InterruptedException {
         WebElement frame = driver.findElement(By.tagName(frame_class));
         System.out.println(frame.isEnabled());
 //        position: relative; left: 162px; top: 58px
@@ -22,7 +22,8 @@ public class Dragable extends Base {
         Actions action = new Actions(driver);
         WebElement ele = driver.findElement(By.xpath(drag_CSS));
         System.out.println(ele.isEnabled());
-        action.dragAndDropBy(ele,58,162).build().perform();
+        action.dragAndDropBy(ele,122,66).build().perform();
+        Thread.sleep(2000);
 
 
 

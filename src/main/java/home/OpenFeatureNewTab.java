@@ -4,8 +4,8 @@ import base.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
-import org.openqa.selenium.devtools.indexeddb.model.Key;
+//import org.openqa.selenium.WindowType;
+//import org.openqa.selenium.devtools.indexeddb.model.Key;
 
 public class OpenFeatureNewTab extends Base {
 

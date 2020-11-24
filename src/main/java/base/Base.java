@@ -40,10 +40,12 @@ public class Base {
             System.setProperty("webdriver.gecko.driver", "src\\main\\java\\browserDrivers\\windows\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+                driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
 
 
         driver.get(prop.getProperty("url"));

@@ -21,7 +21,7 @@ public class HandleTabsTest extends Base {
 
     @Test
     public void getHandle_Tabs_Test() throws InterruptedException {
-        handleTabs.getHandle_Tabs();
+//        handleTabs.getHandle_Tabs();
         Thread.sleep(2000);
 //        handleTabs.switchWindowTOChildWindow(driver);
     }
